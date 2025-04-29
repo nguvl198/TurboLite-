@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "TBoy Roblox",
-         Animation = "Youtube: TBoy Roblox"
+         Title = "GiaBao",
+         Animation = "Youtube: meobeo"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=12681098078",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -31,90 +31,38 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "Script kaitun"})
-     local Tab3o = MakeTab({Name = "Script chest"})
-     local Tab1o = MakeTab({Name = "Scriptkiem"})
-     local Tab1o = MakeTab({Name = "Script doking"})
+          local Tab2o = MakeTab({Name = "Script KaiTun"})
+          local Tab3o = MakeTab({Name = " rương Farm"})
+          local Tab4o = MakeTab({Name = "Script tam kiếm"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "MeoBeo",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
-  end
-  })
-  *
-  AddButton(Tab1o, {
-     Name = "MuxusTL",
-    Callback = function()
-	  getgenv().Team = "Pirates"  loadstring(game:HttpGet("https://raw.githubusercontent.com/MuxusTL/BloxFruits/main/MuxusHub.lua"))()
-  })
-  
-  AddButton(Tab1o, {
-     Name = "Tsuo7",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
-  end
-  })
-  
-  AddButton(Tab5o, {
-     Name = "Annie-Hub",
-    Callback = function()
-	Dough_King"))()loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
   })
   
   AddButton(Tab1o, {
-     Name = "BlueX",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua")
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "DatThgV1",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV1"))()
-  end
-  })
-  
-  AddButton(Tab1o, {
-     Name = "HoangNguyenk8",
+     Name = "Rolls-Rocye",
     Callback = function()
 	  getgenv().Team = "Pirates"
-loadstring(game:HttpGet('https://raw.githubusercontent.com/HoangNguyenk8/Scripts/refs/heads/main/Loader.lua'))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))()
   end
   })
   
-  AddButton(Tab2o, {
-     Name = "xQuartyx",
+      AddButton(Tab1o, {
+     Name = " đạt THG",
     Callback = function()
-	  getgenv().Mode = "OneClick"
-getgenv().Setting = {
-    ["Team"] = "Marines", -- Options "Pirates", "Marines"
-    ["FucusOnLevel"] = true,
-    ["Fruits"] = {  -- setting for fruits u want
-        ["Primary"] = { -- if current fruit is not in this list, eat/buy
-            "Dragon-Dragon",
-            -- u can configs add mores/remove and must end with , (comma symbol)
-        },
-        ["Normal"] = { -- it just a normal fruit list
-            "Dragon-Dragon",
-            -- u can configs add mores/remove and must end with , (comma symbol)
-        }
-        -- run this for get all fruit name `local t={};for _,v in pairs(game.ReplicatedStorage.Remotes.CommF_:InvokeServer("GetFruits"))do table.insert(t,`"{v.Name}"`)end;setclipboard(table.concat(t, "\n"))`
-    },
-    ["IdleCheck"] = 150, -- every (x) seconds if not moving rejoin
-};
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV1"))()
   end
   })
   
   AddButton(Tab3o, {
-     Name = "skullhub.xyz",
+     Name = "skull Hub",
     Callback = function()
-	  getgenv().BloxFruits = {
+	   getgenv().BloxFruits = {
     ["Team"] = "Marines", -- Pirates/Marines
     ["TweenSpeed"] = 350, -- Studs per second 380 no flag but kick
     ["Fruit"] = {
@@ -145,16 +93,197 @@ loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
   end
   })
   
-  AddButton(Tab4o, {
-     Name = "ZisRobloxHop",
+  AddButton(Tab2o, {
+     Name = "xQuartyx",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))()    
+	   getgenv().Mode = "OneClick"
+getgenv().Setting = {
+    ["Team"] = "Marines", -- Options "Pirates", "Marines"
+    ["FucusOnLevel"] = true,
+    ["Fruits"] = {  -- setting for fruits u want
+        ["Primary"] = { -- if current fruit is not in this list, eat/buy
+            "Dragon-Dragon",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        },
+        ["Normal"] = { -- it just a normal fruit list
+            "Dragon-Dragon",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        }
+        -- run this for get all fruit name `local t={};for _,v in pairs(game.ReplicatedStorage.Remotes.CommF_:InvokeServer("GetFruits"))do table.insert(t,`"{v.Name}"`)end;setclipboard(table.concat(t, "\n"))`
+    },
+    ["IdleCheck"] = 150, -- every (x) seconds if not moving rejoin
+};
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
   end
   })
   
   AddButton(Tab1o, {
-     Name = "TeddyHubv2",
+     Name = "lion hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+	   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+getgenv().team = "Pirates" 
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "MINGAMING",
+    Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinGamingDVn"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "MARU HUB",
+    Callback = function()
+	   getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "BANANA HUB",
+    Callback = function()
+	   getgenv().Teams = "Marines"  --Pirates
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NewBetaLua/Lilnhan/refs/heads/main/LilnhanHubV3"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "RONIX KAITUN",
+    Callback = function()
+	   getgenv().ConfigsKaitun = {
+	["Safe Mode"] = false, -- Will be pass all anti cheat (but slow farm)
+	
+	["Melee"] = {
+		["Death Step"] = true,
+		["Electric Claw"] = true,
+		["Dragon Talon"] = true,
+		["Sharkman Karate"] = true,
+		["Superhuman"] = true,
+		["God Human"] = true,
+	},
+
+	["Sword"] = {
+		-- : World 1
+		["Saber"] = true,
+		["Pole"] = false,
+		-- : World 2
+		["Midnight Blade"] = false,
+		["Shisui"] = false,
+		["Saddi"] = false,
+		["Wando"] = false,
+		["Rengoku"] = false,
+		["True Triple Katana"] = false,
+		-- : World 3
+		["Yama"] = true,
+		["Tushita"] = true,
+		["Canvander"] = false,
+		["Buddy Sword"] = false,
+		["Twin Hooks"] = false,
+		["Hallow Scythe"] = false,
+		["Cursed Dual Katana"] = true,
+	},
+
+	["Gun"] = {
+		-- : World 2
+		["Kabucha"] = false,
+		-- : World 3
+		["Venom Bow"] = true,
+		["Skull Guitar"] = false,
+	},
+
+	["Mastery"] = {
+		["Melee"] = true,
+		["Sword"] = true,
+		["Devil Fruits"] = false,
+
+		["Configs"] = {
+			["Selected All Sword"] = false,
+			["Select Sword"] = {"Cursed Dual Katana"},
+		}
+	},
+
+	["Race"] = {
+		["v2"] = false,
+		["v3"] = false,
+		["Locked"] = {
+			["Mink"] = true,
+			["Human"] = true,
+			["Skypiea"] = true,
+			["Fishman"] = false,
+		},
+	},
+
+	["Fruit"] = {
+		["Main Fruit"] = {""},
+		["Sec Fruit"] = {""},
+		["Safe Fruit"] = {
+			"",
+			""
+		},
+	},
+
+	["Quest"] = {
+		["Rainbow Haki"] = false,
+		["Pull Lever"] = false,
+		["Musketeer Hat"] = false,
+		["Dough Mirror"] = false,
+		["Shark Anchor"] = {
+			["Enable"] = false,
+			["Money"] = 25_000_000,
+		},
+	},
+
+	["Currency"] = {
+		["Lock Fragment"] = 25_000,
+	},
+
+	["Performance"] = {
+		["White Screen"] = false,
+		["Booster FPS"] = true,
+		["Lock FPS"] = 30,
+		["AFK Timeout"] = 150,
+	},
+}
+loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "simple",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "fix lag",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()    
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "zis tam kiếm",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Emplic",
+    Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/Emplic/deathrails/refs/heads/main/bond"))()
+  end
+  }
+  
+  AddButton(Tab1o, {
+     Name = "MeoBeo",
+    Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
   end
   })
